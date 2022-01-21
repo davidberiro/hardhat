@@ -1,5 +1,12 @@
 # hardhat
 
+## 2.8.4
+
+### Patch Changes
+
+- 5473906d: The sample projects now include an empty `.prettierc` to make IDEs auto-formatting work properly in some scenarios.
+- 38ee6230: Replace deprecated eth-sig-util with @metamask/eth-sig-util
+
 ## 2.8.3
 
 ### Patch Changes
