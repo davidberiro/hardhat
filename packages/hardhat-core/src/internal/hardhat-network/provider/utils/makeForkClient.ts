@@ -107,7 +107,7 @@ async function getBlockByNumber(
 
 async function getNetworkId(provider: HttpProvider) {
   const networkIdString = (await provider.request({
-    method: "net_version",
+    method: "eth_chainId",
   })) as string;
   return parseInt(networkIdString, 10);
 }
